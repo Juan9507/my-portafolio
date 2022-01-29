@@ -34,6 +34,9 @@ section img {
   left: 0;
   max-width: 100%;
 }
+.img-rounded {
+  border-radius: 1rem !important;
+}
 .link-project {
   text-decoration: none;
   color: black;
@@ -87,10 +90,10 @@ h5 {
   border-radius: 1rem !important;
 }
 .img-perfil {
-  box-shadow: 0px 0px 5px 1px black;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 .img-project {
-  box-shadow: 0px 0px 5px 1px black;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 .img-project:hover {
   transform: scale(1.1);
