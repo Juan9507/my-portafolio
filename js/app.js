@@ -21,11 +21,17 @@ $(document).ready(function () {
     scale: 1.5,
   });
 });
-
 document.addEventListener("DOMContentLoaded", function () {
+  let tamanio = 3;
+  console.log(screen.width);
+  if (screen.width < "999") {
+    tamanio = 3;
+  } else {
+    tamanio = 4;
+  }
   let splideConoci = new Splide("#slider1", {
     type: "loop",
-    perPage: 4,
+    perPage: tamanio,
     autoplay: true,
   });
   splideConoci.mount();
