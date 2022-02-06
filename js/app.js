@@ -21,3 +21,14 @@ $(document).ready(function () {
     scale: 1.5,
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  let splideConoci = new Splide("#slider1", {
+    type: "loop",
+    perPage: 4,
+    autoplay: true,
+  });
+  splideConoci.mount();
+  var splide = new Splide("#slider2");
+  splide.mount();
+});
