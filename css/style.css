@@ -118,6 +118,20 @@ h5 {
     #ece9e6
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+/* .cajaFrame {
+  animation-duration: 2s;
+  animation-name: cajaSlidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes cajaSlidein {
+  from {
+    margin-top: 30%;
+  }
+  to {
+    margin-bottom: 0%;
+  }
+} */
 .textConoci {
   position: absolute;
   bottom: 3px;
