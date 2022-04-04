@@ -161,6 +161,10 @@ h5 {
   line-height: 1.5em;
   font-family: consola;
 }
+/*Hover para las imagenes*/
+ .img-certi{
+  border: none;
+}
 @media (max-width: 1100px) {
   section::before {
     content: "";
